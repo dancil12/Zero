@@ -242,7 +242,6 @@
             "unet_lr": 1,
             "text_encoder_lr": 1,
             "noise_offset": 0.0357,
-            "loss_type": 12,
             "min_snr_gamma": 7
         },
         "eb324bfcad14e8f1d46346f46ae7af7d3e58c3babbc1f699ee7c61baab291369": {
