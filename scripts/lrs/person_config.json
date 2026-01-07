@@ -146,7 +146,6 @@
             "unet_lr": 1,
             "text_encoder_lr": 1,
             "noise_offset": 0.0357,
-            "loss_type": 12,
             "min_snr_gamma": 7
         },
         "e7d0cc3356bd946337fb5e22fcff6132c7eb363abded9d32a99e42145a90309f": {
@@ -163,7 +162,6 @@
             "unet_lr": 1,
             "text_encoder_lr": 1,
             "noise_offset": 0.0357,
-            "loss_type": 12,
             "min_snr_gamma": 7
         },
         "2b2d23c68c5429f8108bb6f80e20cc08bbed1d3210bbba21bd674a767e2695b1": {},
@@ -193,7 +191,6 @@
             "unet_lr": 1,
             "text_encoder_lr": 1,
             "noise_offset": 0.0357,
-            "loss_type": 12,
             "min_snr_gamma": 7
         },
         "84b1be29d81de0bf88d6c4033943d2bc4b543d9ebba9e1c9678296237f147466": {
