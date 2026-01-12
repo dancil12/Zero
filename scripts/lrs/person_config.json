@@ -206,10 +206,21 @@
             ],
             "min_snr_gamma": 7
         },
-        "2f2560699519e9904840f4279c6e76e8573819da773ec4b0c6a689e606508be3": {},
-        "9177dab379e14f76c500ad2246352fd9387f11e2f57e2973bf9ada4d7cd4c962": {
+        "2f2560699519e9904840f4279c6e76e8573819da773ec4b0c6a689e606508be3": {
             "prior_loss_weight": 0.8,
             "max_train_epochs": 21,
+            "optimizer_args": [
+                "decouple=True",
+                "d_coef=1",
+                "weight_decay=0.001",
+                "use_bias_correction=True",
+                "safeguard_warmup=True"
+            ],
+            "min_snr_gamma": 7
+        },
+        "9177dab379e14f76c500ad2246352fd9387f11e2f57e2973bf9ada4d7cd4c962": {
+            "prior_loss_weight": 0.8,
+            "max_train_epochs": 30,
             "optimizer_args": [
                 "decouple=True",
                 "d_coef=1",
