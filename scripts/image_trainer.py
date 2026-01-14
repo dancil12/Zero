@@ -141,6 +141,9 @@ def create_config(task_id, model_path, model_name, model_type, expected_repo_nam
                     "loss_type",
                     "huber_c",
                     "huber_schedule",
+                    "network_dim",
+                    "network_alpha",
+                    "optimizer_type"
                 ]:
                     if optional_key in lrs_settings:
                         config[optional_key] = lrs_settings[optional_key]
