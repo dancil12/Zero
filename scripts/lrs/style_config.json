@@ -210,21 +210,16 @@
             "min_snr_gamma": 8
         },
         "70ff32b896771e2c67412f6a8299e0bf831705bb714af7e810c1466de783cdd0": {
-            "max_train_epochs": 22,
-            "optimizer_type": "prodigy",
+            "max_train_epochs": 20,
             "optimizer_args": [
-                "decouple=True",
-                "d_coef=1",
-                "weight_decay=0.01",
-                "use_bias_correction=True",
-                "safeguard_warmup=True"
+                "betas=(0.9, 0.999)",
+                "weight_decay=1e-03",
+                "eps=1e-08"
             ],
-            "unet_lr": 1,
-            "text_encoder_lr": 1,
+            "unet_lr": 2e-5,
+            "text_encoder_lr": 2e-6,
             "lr_warmup_steps": 25,
             "noise_offset": 0.0411,
-            "network_dim": 32,
-            "network_alpha": 64,
             "min_snr_gamma": 5
         },
         "46bc6498a086646889d92058d7e50398177841349bfce3181bdb5846849354b7": {
