@@ -79,11 +79,9 @@
                 "safeguard_warmup=True"
             ],
             "unet_lr": 1,
-            "text_encoder_lr": 1,
-            "network_dim": 64,
-            "network_alpha": 64,
+            "text_encoder_lr": 1,,
             "noise_offset": 0.0357,
-            "min_snr_gamma": 5
+            "min_snr_gamma": 7
         },
         "158598455e814319c65ccbf8bbae049200601b2ac4fb1429fed6158f2f5ac8bd": {
             "max_train_epochs": 21,
