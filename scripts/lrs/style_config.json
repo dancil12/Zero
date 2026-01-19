@@ -234,6 +234,14 @@
             "lr_warmup_steps": 25,
             "noise_offset": 0.0411,
             "min_snr_gamma": 8
+        },
+        "2f2560699519e9904840f4279c6e76e8573819da773ec4b0c6a689e606508be3": {
+            "max_train_epochs": 22,
+            "unet_lr": 0.0000411,
+            "text_encoder_lr": 0.0000411,
+            "lr_warmup_steps": 25,
+            "noise_offset": 0.0411,
+            "min_snr_gamma": 8
         }
     }
 }
