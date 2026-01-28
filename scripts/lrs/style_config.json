@@ -2,32 +2,10 @@
     "default": {},
     "data": {
         "b89415872c1864f2a6ccccb34d6744021aa58eec13ab9109d4fa53931156ead4": {
-            "max_train_epochs": 55,
-            "prior_loss_weight": 0.5,
-            "optimizer_args": [
-                "decouple=True",
-                "d_coef=2",
-                "weight_decay=0.005",
-                "use_bias_correction=True",
-                "safeguard_warmup=True"
-            ],
-            "unet_lr": 1,
-            "text_encoder_lr": 1,
-            "noise_offset": 0.05,
-            "min_snr_gamma": 6
+            "max_train_epochs": 18
         },
         "162748f97994bc2ffaafdcfd900e06e245e85a9826fb77aa8568846fb6b3f15d": {
-            "max_train_epochs": 25,
-            "lr_warmup_steps": 20,
-            "train_batch_size": 4,
-            "optimizer_args": [
-                "betas=(0.9, 0.999)",
-                "weight_decay=1e-04",
-                "eps=1e-08"
-            ],
-            "unet_lr": 3e-5,
-            "text_encoder_lr": 3e-6,
-            "min_snr_gamma": 7
+            "max_train_epochs": 18
         },
         "eb324bfcad14e8f1d46346f46ae7af7d3e58c3babbc1f699ee7c61baab291369": {
             "max_train_epochs": 22,
@@ -71,13 +49,7 @@
             "noise_offset": 0.0411
         },
         "84b1be29d81de0bf88d6c4033943d2bc4b543d9ebba9e1c9678296237f147466": {
-            "max_train_epochs": 25,
-            "unet_lr": 3e-5,
-            "text_encoder_lr": 3e-6,
-            "noise_offset": 0.0411,
-            "min_snr_gamma": 7,
-            "lr_warmup_steps": 20,
-            "seed": 2951032221
+            "max_train_epochs": 30
         },
         "a39c9825466ea06cd71c5db75963783dba07b2d2a02b9aac21452c3762493c8f": {
             "max_train_epochs": 22,
